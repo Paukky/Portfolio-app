@@ -26,14 +26,14 @@ const ContactKeeper = () =>  {
                         </div>     
 
                     </Slider> 
-                    
+
                     <p className ="text-center text-primary p-2">
                     Using Github's REST API, I was able to integrate it into this application and being able to call for data. 
                     This is my first front-end application that taught me the basic of React. It's scalable and easy to use. 
                     <br/>
                     You can view this project here
                     <br/>
-                    <a href="https://githubfindersearcher.netlify.app/"> <b>Github Searcher</b></a>
+                    <a href="https://githubfindersearcher.netlify.app/"> <b>Github Finder</b></a>
                     </p>
                    
                 </div>
