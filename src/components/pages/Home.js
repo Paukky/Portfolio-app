@@ -3,6 +3,7 @@ import background from '../layout/background2.png'
 import ContactKeepers from '../layout/ContactKeeper.png'
 import GithubSearcher from '../layout/GithubSearcher.png'
 import { Link } from 'react-router-dom';
+import Resume from '../../Paul_Ly_Resume.pdf'
 import Website from '../layout/Portfolio.png'
 
 
@@ -25,9 +26,6 @@ const Home = () => {
                     <div className="text-center text-primary lead">
                         <h1>Paul Ly</h1> 
                     </div>
-                    <div className="text-center text-light sub">
-                        <h3>Full Stack Web Developer</h3>
-                    </div>       
                 </div> 
             </div>
 
@@ -56,7 +54,7 @@ const Home = () => {
                         </div>
                     </Link>  
                     
-                    {/* <Link to='/Portfolio'>  
+                   <Link to='/Portfolio'>  
                         <div className="portfolio">
                             <img
                                 src={Website}
@@ -65,7 +63,7 @@ const Home = () => {
                             />
                             <div className="subtitle">Portfolio Website</div>
                         </div>
-                    </Link> */}
+                    </Link> 
 
                 </div>         
             </div>
@@ -87,13 +85,13 @@ const Home = () => {
                 <div className ="footer-items">
                     <ul>
                         <li>
-                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/Paukky" className=""><i class="fab fa-github"/></a>
                         </li>
                         <li>
-                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/paul-ly1993/"><i class="fab fa-linkedin"/></a>      
                         </li>
                         <li>
-                        <i class="far fa-file-pdf"></i>
+                            <a href={Resume} download="Paul_Ly_Resume.pdf"><i class="far fa-file-pdf"/></a>   
                         </li>
                     </ul>
                 </div>
